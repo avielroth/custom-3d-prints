@@ -1,3 +1,15 @@
 [build]
   command = "npm run build"
   publish = "dist"
+
+[[redirects]]
+  from = "/gallery"
+  to = "https://3dprintgallery.netlify.app/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gallery/*"
+  to = "https://3dprintgallery.netlify.app/:splat"
+  status = 301
+  force = true
