@@ -4,8 +4,8 @@
 
 [[redirects]]
   from = "/gallery"
-  to = "/gallery/"
-  status = 301
+  to = "https://3dprintgallery.netlify.app/"
+  status = 200
   force = true
 
 [[redirects]]
